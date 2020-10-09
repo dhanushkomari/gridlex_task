@@ -1,8 +1,14 @@
-print('PYTHON CODE WHICH TAKES AN ALPHANUMERIC Str AS AN ARGUMENT AND PRINT THE STRING AS AN ART WHICH IS A COMBINATION OF # CHARECTERS.')
+print('PYTHON CODE WHICH TAKES AN ALPHANUMERIC STRING AS AN ARGUMENT AND PRINT THE STRING AS AN ART WHICH IS A COMBINATION OF # CHARECTERS.')
 
 
 def PRINTING_PATTERN():
     for i in range(len(Str)):
+
+        ###################################
+        ###### UPPER CASE LETTERS##########
+        ###################################
+
+        
         ######   PRINTING 'A'  #######
         if Str[i]=="A":
             A = [[" " for i in range(6)] for j in range(6)]
@@ -237,11 +243,250 @@ def PRINTING_PATTERN():
                         Z[row][col]="#"
             List.append(Z)
 
+        ###################################
+        #######  LOWER CASE LETTERS  ######
+        ###################################
+
+        # for letter a
+        elif Str[i]=="a":
+            a= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if (row==0 and (col!=0 and col!=4 and col!=5)) or (col==0 and row!=0 and row!=5) or (col==4 and row!=0 and row!=5) or (row==5 and col!=0 and col!=4):
+                        a[row][col]="#"
+            List.append(a)
+
+
+        # for letter b            
+        elif Str[i]=="b":
+            b= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if col==0 or (row==2 and col!=4 and col!=5) or (row==5 and col!=4 and col!=5) or (row==4 and col==4) or (row==3 and col==4):
+                        b[row][col]="#"
+            List.append(b)
+
+        # for letter c
+        elif Str[i]=="c":
+            c= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if (row==0 and col!=0 and col!=5) or (row==5 and col!=0 and col!=5) or (col==0 and row!=0 and row!=5):
+                        c[row][col]="#"
+            List.append(c)
+
+        # for letter d
+        elif Str[i]=="d":
+            d= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if col==5 or (row==2 and col!=0) or (row==5 and col!=0) or (col==0 and (row==3 or row==4)):
+                        d[row][col]="#"
+            List.append(d)
+
+        # for letter e
+        elif Str[i]=="e":
+            e= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if (col==0 and row!=0 and row!=5) or (row==0 and col!=0 and col!=5) or (row==2 and col!=5) or (row==5 and col!=0 and col!=5) or (row==1 and col==5):
+                        e[row][col]="#"
+            List.append(e)
+
+        # for letter f
+        elif Str[i]=="f":
+            f= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if (row==0 and (col==3 or col==4 or col==5)) or (col==2 and row!=0) or (row==3):
+                        f[row][col]="#"
+            List.append(f)
+
+        # for letter g
+        elif Str[i]=="g":
+            g= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if (row==0 and col!=0) or (row==2 and col!=0) or (row==5 and col!=0 and col!=5) or (col==5 and row!=0 and row!=5) or (row==1 and col==0):
+                        g[row][col]="#"
+            List.append(g)
+
+        # for letter h
+        elif Str[i]=="h":
+            h= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if (col==0) or (row==2 and col!=5) or (col==5 and row>2):
+                        h[row][col]="#"
+            List.append(h)        
+
+        # for letter i
+        elif Str[i]=="i":
+            i= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if (col==2 and row>1) or (col==2 and row==0):
+                        i[row][col]="#"
+            List.append(i)  
+
+        # for letter j            
+        elif Str[i]=="j":
+            j= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if (col==3 and row>1) or (row==5 and col<4) or (row==0 and col==3):
+                        j[row][col]="#"
+            List.append(j)  
+
+        # for letter k
+        elif Str[i]=="k":
+            k= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if (col==1) or (row==2 and col==3) or (row==3 and col==1) or (row==4 and col==2) or (row==5 and col==3) or (row==3 and col==2):
+                        k[row][col]="#"
+            List.append(k)  
+
+        # for letter l
+        elif Str[i]=="l":
+            l= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if (col==2 and row<5) or (row==5 and col==3) or (row==5 and col==4):
+                        l[row][col]="#"
+            List.append(l)  
+
+        # for letter m
+        elif Str[i]=="m":
+            m= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if col==0 or col==2 or (col==5 and row!=0) or (row==1 and col!=4) or (row==0 and col==4):
+                        m[row][col]="#"
+            List.append(m)
+
+        # for letter n
+        elif Str[i]=="n":
+            n= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if col==0 or (col==5 and row!=0) or (row==0 and (col>2 and col<5)) or (row==2 and col==1) or (row==1 and col==2):
+                        n[row][col]="#"
+            List.append(n)
+
+        # for letter o            
+        elif Str[i]=="o":
+            o= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if ((row==0 or row==5) and (col!=0 and col!=5)) or ((col==0 or col==5) and (row!=0 and row!=5)):
+                        o[row][col]="#"
+            List.append(o)
+
+        # for letter p
+        elif Str[i]=="p":
+            p= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if col==0 or (row==0 and col!=5 and col!=4) or (row==2 and col!=5 and col!=4) or (row==1 and col==4):
+                        p[row][col]="#"
+            List.append(p)
+
+        # for letter q            
+        elif Str[i]=="q":
+            q= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if (row==0 and col==1) or (row==0 and col==2)or (col==0 and (row>0 and row<3)) or (row==3 and (col==1 or col==2)) or (col==3 and (row>0 and row<3)) or (row==4 and col==4) or (row==3 and col==5or (row==3 and col==3)):
+                        q[row][col]="#"
+            List.append(q)
+
+        # for letter r
+        elif Str[i]=="r":
+            r= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if (col==2) or (col==3 and row==1) or(col==4 and row==0) :
+                        r[row][col]="#"
+            List.append(r)
+
+        # for letter s
+        elif Str[i]=="s":
+            s= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if (row==0 and col>1) or (row==3 and (col>1 and col<5)) or (row==5 and (col>0 and col<5)) or (col==1 and (row==1 or row==2)) or (row==4 and col==5):
+                        s[row][col]="#"
+            List.append(s)
+
+        # for letter t
+        elif Str[i]=="t":
+            t= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if (col==1 and row!=5) or (row==5 and (col>1 and col<5)) or (row==2 and col!=5):
+                        t[row][col]="#"
+            List.append(t)
+
+        # for letter u
+        elif Str[i]=="u":
+            u= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if (col==0 and row!=5) or (col==3 and row!=5) or (row==5 and (col>0 and col<3)) or (row==4 and col==4) or (row==5 and col==5):
+                        u[row][col]="#"
+            List.append(u)
+
+        # for letter v            
+        elif Str[i]=="v":
+            v= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if (col==0 and row<4) or (col==4 and row<4) or (col==1 and (row==4)) or (col==3 and (row==4)) or (row==5 and col==2):
+                        v[row][col]="#"
+            List.append(v)
+
+        # for letter w            
+        elif Str[i]=="w":
+            w= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if (col==0 and row!=5) or (col==5 and (row!=5 and row!=4)) or (row==3 and col==2) or (row==4 and col==2) or (row==5 and col==1) or (row==5 and col==3) or (row==4 and col==4):
+                        w[row][col]="#"
+            List.append(w)
+
+        # for letter x
+        elif Str[i]=="x":
+            x= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if (col==2 and (row>0 and row<5)) or (col==3 and (row>0 and row<5)) or (row==0 and (col>3 or col<2)) or (row==5 and (col>3 or col<2)):
+                        x[row][col]="#"
+            List.append(x)
+
+        # for letter y            
+        elif Str[i]=="y":
+            y= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if (row+col==5) or (row==0 and col==1) or (row==1 and col==2):
+                        y[row][col]="#"
+            List.append(y)
+
+        # for letter z        
+        elif Str[i]=="z":
+            z= [[" " for i in range(6)] for j in range(6)]
+            for row in range(6):
+                for col in range(6):
+                    if (row+col==5) or row==0 or row==5 or (row==3 and col==1) or (row==3 and col==3):
+                        z[row][col]="#"
+            List.append(z)
+
             
 
-        ##############################
-        #### PRINTING NUMBERS ########
-        ##############################
+        ##################################
+        ########    NUMBERS   ############
+        ##################################
             
 
         ######   PRINTING '1'  #######
@@ -361,7 +606,7 @@ def PRINTING_PATTERN():
 
 ####### PASSING Str ########
 Str=input("ENTER INPUT STRING:")
-Str=Str.upper()
+#Str=Str.upper()
 List=[]
 Result=PRINTING_PATTERN()
 
@@ -375,7 +620,7 @@ for i in range(6):
     
 print() #for one line space bottom
 
-###########################################
+
 
 
                     
