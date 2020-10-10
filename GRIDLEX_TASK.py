@@ -247,7 +247,7 @@ def PRINTING_PATTERN():
         #######  LOWER CASE LETTERS  ######
         ###################################
 
-        # for letter a
+        ######   PRINTING 'a'  #######
         elif Str[i]=="a":
             a= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
@@ -257,7 +257,7 @@ def PRINTING_PATTERN():
             List.append(a)
 
 
-        # for letter b            
+        ######   PRINTING 'b'  #######            
         elif Str[i]=="b":
             b= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
@@ -266,7 +266,7 @@ def PRINTING_PATTERN():
                         b[row][col]="#"
             List.append(b)
 
-        # for letter c
+        ######   PRINTING 'c'  #######
         elif Str[i]=="c":
             c= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
@@ -275,7 +275,7 @@ def PRINTING_PATTERN():
                         c[row][col]="#"
             List.append(c)
 
-        # for letter d
+        ######   PRINTING 'd'  #######
         elif Str[i]=="d":
             d= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
@@ -284,7 +284,7 @@ def PRINTING_PATTERN():
                         d[row][col]="#"
             List.append(d)
 
-        # for letter e
+        ######   PRINTING 'e'  #######
         elif Str[i]=="e":
             e= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
@@ -293,7 +293,7 @@ def PRINTING_PATTERN():
                         e[row][col]="#"
             List.append(e)
 
-        # for letter f
+        ######   PRINTING 'f'  #######
         elif Str[i]=="f":
             f= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
@@ -302,7 +302,7 @@ def PRINTING_PATTERN():
                         f[row][col]="#"
             List.append(f)
 
-        # for letter g
+        ######   PRINTING 'g'  #######
         elif Str[i]=="g":
             g= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
@@ -311,7 +311,7 @@ def PRINTING_PATTERN():
                         g[row][col]="#"
             List.append(g)
 
-        # for letter h
+        ######   PRINTING 'h'  #######
         elif Str[i]=="h":
             h= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
@@ -320,7 +320,7 @@ def PRINTING_PATTERN():
                         h[row][col]="#"
             List.append(h)        
 
-        # for letter i
+        ######   PRINTING 'i'  #######
         elif Str[i]=="i":
             i= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
@@ -329,7 +329,7 @@ def PRINTING_PATTERN():
                         i[row][col]="#"
             List.append(i)  
 
-        # for letter j            
+        ######   PRINTING 'j'  #######            
         elif Str[i]=="j":
             j= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
@@ -338,7 +338,7 @@ def PRINTING_PATTERN():
                         j[row][col]="#"
             List.append(j)  
 
-        # for letter k
+        ######   PRINTING 'k'  #######
         elif Str[i]=="k":
             k= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
@@ -347,7 +347,7 @@ def PRINTING_PATTERN():
                         k[row][col]="#"
             List.append(k)  
 
-        # for letter l
+        ######   PRINTING 'l'  #######
         elif Str[i]=="l":
             l= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
@@ -356,7 +356,7 @@ def PRINTING_PATTERN():
                         l[row][col]="#"
             List.append(l)  
 
-        # for letter m
+        ######   PRINTING 'm'  #######
         elif Str[i]=="m":
             m= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
@@ -365,7 +365,7 @@ def PRINTING_PATTERN():
                         m[row][col]="#"
             List.append(m)
 
-        # for letter n
+        ######   PRINTING 'n'  #######
         elif Str[i]=="n":
             n= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
@@ -374,7 +374,7 @@ def PRINTING_PATTERN():
                         n[row][col]="#"
             List.append(n)
 
-        # for letter o            
+        ######   PRINTING 'o'  #######            
         elif Str[i]=="o":
             o= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
@@ -383,7 +383,7 @@ def PRINTING_PATTERN():
                         o[row][col]="#"
             List.append(o)
 
-        # for letter p
+        ######   PRINTING 'p'  #######
         elif Str[i]=="p":
             p= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
@@ -392,7 +392,7 @@ def PRINTING_PATTERN():
                         p[row][col]="#"
             List.append(p)
 
-        # for letter q            
+        ######   PRINTING 'q'  #######           
         elif Str[i]=="q":
             q= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
@@ -401,7 +401,7 @@ def PRINTING_PATTERN():
                         q[row][col]="#"
             List.append(q)
 
-        # for letter r
+        ######   PRINTING 'r'  #######
         elif Str[i]=="r":
             r= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
@@ -410,7 +410,7 @@ def PRINTING_PATTERN():
                         r[row][col]="#"
             List.append(r)
 
-        # for letter s
+        ######   PRINTING 's'  #######
         elif Str[i]=="s":
             s= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
@@ -419,7 +419,7 @@ def PRINTING_PATTERN():
                         s[row][col]="#"
             List.append(s)
 
-        # for letter t
+        ######   PRINTING 't'  #######
         elif Str[i]=="t":
             t= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
@@ -428,7 +428,7 @@ def PRINTING_PATTERN():
                         t[row][col]="#"
             List.append(t)
 
-        # for letter u
+        ######   PRINTING 'u'  #######
         elif Str[i]=="u":
             u= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
@@ -437,7 +437,7 @@ def PRINTING_PATTERN():
                         u[row][col]="#"
             List.append(u)
 
-        # for letter v            
+        ######   PRINTING 'v'  #######            
         elif Str[i]=="v":
             v= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
@@ -446,7 +446,7 @@ def PRINTING_PATTERN():
                         v[row][col]="#"
             List.append(v)
 
-        # for letter w            
+        ######   PRINTING 'w'  #######            
         elif Str[i]=="w":
             w= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
@@ -455,7 +455,7 @@ def PRINTING_PATTERN():
                         w[row][col]="#"
             List.append(w)
 
-        # for letter x
+        ######   PRINTING 'x'  #######
         elif Str[i]=="x":
             x= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
@@ -464,7 +464,7 @@ def PRINTING_PATTERN():
                         x[row][col]="#"
             List.append(x)
 
-        # for letter y            
+        ######   PRINTING 'y'  #######            
         elif Str[i]=="y":
             y= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
@@ -473,7 +473,7 @@ def PRINTING_PATTERN():
                         y[row][col]="#"
             List.append(y)
 
-        # for letter z        
+        ######   PRINTING 'z'  #######        
         elif Str[i]=="z":
             z= [[" " for i in range(6)] for j in range(6)]
             for row in range(6):
